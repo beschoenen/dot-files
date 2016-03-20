@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<advancedsettings>
+  <video>
+    <excludefromlisting> <!-- Regular expressions that if evaluated to true won't be displayed in Files View -->
+      <regexp>(#recycle|[-\._ ](trailer)[-\._ ])</regexp>
+    </excludefromlisting>
+    <excludetvshowsfromscan>
+      <regexp>#recycle</regexp>
+    </excludetvshowsfromscan>
+  </video>
+</advancedsettings>
