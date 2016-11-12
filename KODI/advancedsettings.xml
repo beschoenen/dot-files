@@ -3,9 +3,16 @@
   <video>
     <excludefromlisting> <!-- Regular expressions that if evaluated to true won't be displayed in Files View -->
       <regexp>(#recycle|[-\._ ](trailer)[-\._ ])</regexp>
+      <regexp>@eaDir</regexp>
+      <regexp>@EADIR</regexp>
     </excludefromlisting>
     <excludetvshowsfromscan>
       <regexp>#recycle</regexp>
+      <regexp>@eaDir</regexp>
+      <regexp>@EADIR</regexp>
     </excludetvshowsfromscan>
+    <enablehighqualityhwscalers>true</enablehighqualityhwscalers>
   </video>
+  <fanartres>2160</fanartres>
+  <imageres>2160</imageres>
 </advancedsettings>
