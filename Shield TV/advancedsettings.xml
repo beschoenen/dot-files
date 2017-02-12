@@ -17,7 +17,6 @@
   </video>
 
   <videolibrary>
-    <cleanonupdate>true</cleanonupdate>
     <hideallitems>true</hideallitems>
     <hideemptyseries>true</hideemptyseries>
   </videolibrary>
