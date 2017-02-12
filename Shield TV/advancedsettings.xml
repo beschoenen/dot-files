@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <advancedsettings>
+
   <video>
-    <excludefromlisting> <!-- Regular expressions that if evaluated to true won't be displayed in Files View -->
-      <regexp>(#recycle|[-\._ ](trailer)[-\._ ])</regexp>
+    <excludefromlisting>
+      <regexp>[-\._ ](trailer)[-\._ ]</regexp>
+      <regexp>#recycle</regexp>
       <regexp>@eaDir</regexp>
       <regexp>@EADIR</regexp>
     </excludefromlisting>
@@ -13,6 +15,18 @@
     </excludetvshowsfromscan>
     <enablehighqualityhwscalers>true</enablehighqualityhwscalers>
   </video>
+
+  <videolibrary>
+    <cleanonupdate>true</cleanonupdate>
+    <hideallitems>true</hideallitems>
+    <hideemptyseries>true</hideemptyseries>
+  </videolibrary>
+
+  <!--General settings-->
   <fanartres>2160</fanartres>
   <imageres>2160</imageres>
+  <imagescalingalgorithm>lanczos</imagescalingalgorithm>
+  <splash>no</splash>
+  <disableminimize>true</disableminimize>
+
 </advancedsettings>

@@ -1,0 +1,35 @@
+save-position-on-quit
+cache=358400
+autofit-larger=95%x95%
+geometry=50%:50%
+vo=opengl-hq
+term-osd-bar-chars=[=>-]
+
+# OSD Controller
+osd-font="Helvetica"
+osd-font-size=42
+
+# OSD Bar
+osd-bar-h=1
+osd-bar-w=100
+osd-bar-align-y=1
+osd-border-size=0
+osd-status-msg=yes
+
+# Subtitles Setup
+ass-force-style=Kerning=yes
+demuxer-mkv-subtitle-preroll
+
+# Subtitles Font
+sub-text-font="Helvetica-Light"
+sub-text-font-size=42
+sub-text-margin-y=36
+sub-text-color="#ffffffff"
+sub-text-border-color="#ff262626"
+sub-text-border-size=1.5
+sub-text-shadow-offset=1
+sub-text-shadow-color="#33000000"
+sub-text-spacing=-0.2
+
+# Term
+term-osd-bar
