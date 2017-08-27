@@ -16,16 +16,26 @@
     <enablehighqualityhwscalers>true</enablehighqualityhwscalers>
   </video>
 
-  <videolibrary>
-    <hideallitems>true</hideallitems>
-    <hideemptyseries>true</hideemptyseries>
-  </videolibrary>
+  <music>
+    <excludefromlisting>
+      <regexp>#recycle</regexp>
+      <regexp>@eaDir</regexp>
+      <regexp>@EADIR</regexp>
+    </excludefromlisting>
+    <exludefromscan>
+      <regexp>#recycle</regexp>
+      <regexp>@eaDir</regexp>
+      <regexp>@EADIR</regexp>
+    </exludefromscan>
+  </music>
 
   <!--General settings-->
+  <fanart>
+    <add>artist.*</add>
+  </fanart>
   <fanartres>2160</fanartres>
   <imageres>2160</imageres>
   <imagescalingalgorithm>lanczos</imagescalingalgorithm>
-  <splash>no</splash>
   <disableminimize>true</disableminimize>
 
 </advancedsettings>
