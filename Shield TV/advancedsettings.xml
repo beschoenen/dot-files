@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<advancedsettings>
-
+<advancedsettings version="1.0">
   <video>
     <excludefromlisting>
       <regexp>[-\._ ](trailer)[-\._ ]</regexp>
@@ -13,9 +11,12 @@
       <regexp>@eaDir</regexp>
       <regexp>@EADIR</regexp>
     </excludetvshowsfromscan>
-    <enablehighqualityhwscalers>true</enablehighqualityhwscalers>
+    <excludefromscan>
+      <regexp>#recycle</regexp>
+      <regexp>@eaDir</regexp>
+      <regexp>@EADIR</regexp>
+    </excludefromscan>
   </video>
-
   <music>
     <excludefromlisting>
       <regexp>#recycle</regexp>
@@ -28,14 +29,7 @@
       <regexp>@EADIR</regexp>
     </exludefromscan>
   </music>
-
-  <!--General settings-->
-  <fanart>
-    <add>artist.*</add>
-  </fanart>
   <fanartres>2160</fanartres>
   <imageres>2160</imageres>
   <imagescalingalgorithm>lanczos</imagescalingalgorithm>
-  <disableminimize>true</disableminimize>
-
 </advancedsettings>
